@@ -38,6 +38,7 @@ Explain the practical value of the concept:
 - Always include at least one **article** and at least one **video**.  
 - Add a viewing/reading range, e.g. “watch 0:00–8:00”, “read until section X”.
 - Include links for words that point to an article and can lead to a specific section with header #
+- Always WebFeach the used url to check if the article is still relevant and about the referenced topic. 
 
 ### **Tasks**
 - Explicit, reproducible actions in terminal or IDE.  
@@ -103,5 +104,5 @@ You should be able to:
 - rewrite it into a complete educational `.md` document,  
 - ensure bilingual line-by-line consistency,  
 - enrich with missing explanations, motivations, examples, and exercises,  
-- add curated references (article + video with ranges),  
+- add curated references (article + video with ranges), always check if the links work.
 - maintain a clean, consistent, approachable tone.

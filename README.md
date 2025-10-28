@@ -66,8 +66,7 @@ This roadmap guides learners through **fundamentals, tooling, architecture, back
 * Initialize Git and GitHub repo
 * Learn basic Docker commands
 
-📘 [PyCharm Docs](https://www.jetbrains.com/help/pycharm/quick-start-guide.html)
-📹 [Tech With Tim – Git Crash Course (0:00–20:00)](https://youtu.be/USjZcfj8yxE)
+See: [0.md](0.md)
 
 ---
 
@@ -134,9 +133,11 @@ This roadmap guides learners through **fundamentals, tooling, architecture, back
 ### 🧩 Phase 6 — Next Steps
 
 * Async pipelines, Celery, queues
+* Databases: SQL, NoSQL
 * Vector DBs (Chroma, Milvus)
 * Cloud deployment (AWS, GCP)
-* Open Source contributions
+* Frontends: React, Vue, Flutter
+* CI/CD
 
 📘 [AWS Lambda Overview](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 📹 [TechWorld with Nana – CI/CD Explained](https://youtu.be/1dl5H5ovx0Y)
