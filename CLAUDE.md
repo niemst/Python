@@ -51,11 +51,24 @@ Explain the practical value of the concept:
 
 ## Language & Style Guidelines
 
-- Keep language plain and natural; explain technical terms, but keep key English words (`IDE`, `logging`, `debugger`).  
-- Use real-world analogies and intuitive phrasing.  
-- Every term appears in both languages (EN/PL).  
-- Avoid superiority tone (no “professionals do this”) — be neutral and factual (“in practice, it’s better to…”).  
-- When multiple tools exist, show the main and an alternative (e.g., PyCharm / VSCode, uv / pip). Explain differences and similarities (e.g., `uv add` will do both update the file contain dependencies (project.toml) and install them when `pip install` would just install them, and you would need to update requirements.txt manually).  
+### Tone: Friend Helping a Friend
+
+This course is written **from one friend to another** — someone who wants to genuinely help their friend learn programming.
+
+**What this means:**
+
+- **Be humble and supportive** — you're sharing knowledge, not showing off
+- **No intellectual condescension or "showing off"**
+- **Explain like equals** — "here's what I learned" not "let me teach you how it's done"
+- **Admit when things are tricky** — "this was confusing for me at the beginning," "this topic has some controversy," "there are opinions for and against"
+
+### General Style Rules
+
+- Keep language plain and natural; explain technical terms, but keep key English words (`IDE`, `logging`, `debugger`).
+- Use real-world analogies and intuitive phrasing.
+- Every term appears in both languages (EN/PL).
+- Avoid superiority tone (no "professionals do this") — be neutral and factual ("in practice, it's better to…").
+- When multiple tools exist, show the main and an alternative (e.g., PyCharm / VSCode, uv / pip). Explain differences and similarities (e.g., `uv add` will do both update the file contain dependencies (project.toml) and install them when `pip install` would just install them, and you would need to update requirements.txt manually).
 - Limit use of emojis. But can use them to give a general concept of the sentence (💡🎯✅).
 
 ---
