@@ -68,6 +68,9 @@ This roadmap guides learners through **fundamentals, tooling, architecture, back
 
 See: [0.md](0.md)
 
+📘 [Real Python – Python Development Environments](https://realpython.com/effective-python-environment/)
+📹 [Tech With Tim – Python Setup for Beginners (0:00–30:00)](https://youtu.be/i-uWWgDREck)
+
 ---
 
 ### 🧩 Phase 1 — Python Foundations
@@ -76,6 +79,8 @@ See: [0.md](0.md)
 * Classes, methods, and objects
 * Type hints and `dataclass`
 * DRY / KISS / Zen of Python
+
+See: [1.md](1.md)
 
 📘 [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 📹 [freeCodeCamp – Python Full Course (0:00–2:00:00)](https://youtu.be/rfscVS0vtbw)
@@ -95,8 +100,8 @@ See: [0.md](0.md)
 ---
 
 ### 🧩 Phase 3 — Architecture & Design Patterns
-
-* SOLID, DRY, Clean Code
+ 
+* SOLID, Clean Code
 * Observer, Factory, Iterator patterns
 * Profiling & optimization (`timeit`, `lru_cache`)
 * Unit and integration tests with pytest
