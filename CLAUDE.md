@@ -27,6 +27,7 @@ Each topic or block must include the following:
 ### No AI Slop
 - Never add things like `🤖 Generated with [Claude Code](https://claude.com/claude-code)`
 - Always WebFeach the used url to check if the article is still relevant and about the referenced topic. 
+- No AI nose comments in code examples, no slop docstr that brings no value (according to Clean Code rules)
 
 ### Intuitive explanation (EN/PL)
 - Short, clear sentences, when jargon is in use, should have links to explanations like Wikipedia or articles.  
