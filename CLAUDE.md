@@ -19,10 +19,14 @@ Assist in editing and formatting educational and technical materials (e.g., Pyth
 
 Each topic or block must include the following:
 
-### 1️Bilingual heading
+###  ️Bilingual heading
 ```markdown
 ## Debugging and Logging / Debugowanie i logowanie
 ```
+
+### No AI Slop
+- Never add things like `🤖 Generated with [Claude Code](https://claude.com/claude-code)`
+- Always WebFeach the used url to check if the article is still relevant and about the referenced topic. 
 
 ### Intuitive explanation (EN/PL)
 - Short, clear sentences, when jargon is in use, should have links to explanations like Wikipedia or articles.  
@@ -34,15 +38,18 @@ Each topic or block must include the following:
 Explain the practical value of the concept:  
 > e.g., “Docker lets you run software in an identical environment on any machine.”
 
+Use the section only when it makes sense. Do add it everywhere. Just when adding background is needed.
+
 ### **Links & Ranges**
 - Always include at least one **article** and at least one **video**.  
-- Add a viewing/reading range, e.g. “watch 0:00–8:00”, “read until section X”.
+- Add a viewing/reading range, e.g. “watch 0:00–8:00”, “read until section X”. (check if that is real values for the video)
 - Include links for words that point to an article and can lead to a specific section with header #
-- Always WebFeach the used url to check if the article is still relevant and about the referenced topic. 
+- When using paths, do not assume that the path used in this computer or in an article is the same as they will be on the student one.
+- It is better to provide an additional 2nd or 3rd article link - than one bad.
 
 ### **Tasks**
-- Explicit, reproducible actions in terminal or IDE.  
-- Code in fenced blocks, with short bilingual comments.
+- Explicit, reproducible actions in a terminal or IDE.  
+- Code in fenced blocks, with short bilingual comments. No need to repeat code if comment in the other language could do the trick
 
 ### **Summary / Outcome**
 - Bullet points summarize what the learner can do after finishing the section.
@@ -86,15 +93,17 @@ This course is written **from one friend to another** — someone who wants to g
 
 ## Redaction Best Practices
 
-- Each section title must appear in both languages.  
-- Either language should make sense on its own (complete meaning).  
-- Don’t shorten names — always include full titles and sources.  
-- Cite reliable sources: Corey Schafer, Real Python, Tech With Tim, freeCodeCamp, JetBrains docs, official doc, wikipedia etc.  
-- Maintain consistent structure, tone, and formatting across files.  
-- Always explain *why* a tool or concept is useful.  
+- Each section title must appear in both languages.
+- Either language should make sense on its own (complete meaning).
+- Don't shorten names — always include full titles and sources.
+- Cite reliable sources: Corey Schafer, Real Python, Tech With Tim, freeCodeCamp, JetBrains docs, official doc, wikipedia etc.
+- Maintain consistent structure, tone, and formatting across files.
+- Always explain *why* a tool or concept is useful.
 - Include concise, executable tasks after each theory part.
 
----
+## Give good examples
+- When writing in 1.md use knowledge from 0.md. Eg use `uv` instead of `pip` in 1.md etc.
+- Write examples that fallow good rules (eg. uses typing, naming, provide clean code etc)
 
 ## Example Fragment
 
