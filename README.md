@@ -94,6 +94,7 @@ See: [1.md](1.md)
 * Files: JSON, CSV
 * `requests`, API calls, error handling
 * Logging and environment variables
+* Linters and formatters
 * Small project: **Weather Data Fetcher**
 
 📘 [requests Library](https://requests.readthedocs.io/en/latest/)
@@ -107,6 +108,7 @@ See: [1.md](1.md)
 * Observer, Factory, Iterator patterns
 * Profiling & optimization (`timeit`, `lru_cache`)
 * Unit and integration tests with pytest
+* Small project: ...
 
 📘 [Refactoring.Guru – Design Patterns in Python](https://refactoring.guru/design-patterns/python)
 📹 [ArjanCodes – SOLID Principles](https://youtu.be/pTB0EiLXUC8)
